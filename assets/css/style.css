@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body-1 {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background: linear-gradient(#FDFDFD, #FFB6C1);
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 65px;
+    background-color: #DB7093	;
+    box-shadow: 0px 0px 10px #FF1493	;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__lista--imagem-logo {
+    width: 64px;
+}
+
+.logo-2 {
+    align-self: center;
+    width: 85px;
+    padding: 15px 0;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: #DB7093;
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+
+    z-index: 1;
+    left: -100vw;
+    transition: 500ms;
+}
+
+.menu-lateral__ativo {
+    left: 0;
+}
+
+.menu-lateral__link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 15px;
+    color: #fdfdfd;
+    height: 65px;
+    padding-left: 45px;
+}
+
+.icone {
+    width: 40px;
+}
+
+.principal {
+    padding: 0px 10px 25px 10px;
+    text-align: center;
+}
+
+.principal__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #873661;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.banner__conteudo--titulo {
+    position: relative;
+    font-size: 1.3rem;
+    color: #fdfdfd	;
+    font-weight: 700;
+    font-style: italic;
+    bottom: 315px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75px;
+    padding-top: 27px;
+}
+
+.principal__nome {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #bf44b3;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.principal__paragrafo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #bf44b3;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.principal__conteudo--titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fdfdfd;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 15px 0;
+}
+
+.principal__conteudo-2 {
+    padding: 145px 0;
+}
+
+.principal__texto {
+    font-size: 1.2rem;
+    padding: 15px 20px 25px 20px;
+    color: #bf44b3;
+    text-align: justify;
+}
+
+.principal__texto--contato-link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.principal__produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__produtos--lista {
+    padding-bottom: 35px;
+}
+
+.principal__produtos--imagem {
+    border-radius: 10px;
+}
+
+.principal__produtos--pedidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+.principal__produtos--contato {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #bf44b3;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.principal__produtos--whatsapp-botao {
+    width: 190px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.principal__produtos--paginas {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #bf44b3;
+    text-align: center;
+}
+
+.footer-1 {
+    display: flex;
+    height: 40px;
+    background-color: #DB7093	;
+    color: #FDFDFD;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}

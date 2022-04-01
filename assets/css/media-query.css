@@ -1,0 +1,81 @@
+@media (min-width: 245px) and (max-width: 320px) {
+    .footer-1 {
+        font-size: 0.6rem;
+    }
+
+    .banner__conteudo--titulo {
+        bottom: 240px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-1 {
+        height: 120px;
+        justify-content: space-around;
+    }
+
+    .menu-lateral {
+        display: flex;
+    }
+
+    .banner__conteudo--titulo {
+        bottom: 850px;
+        height: 325px;
+        font-size: 6rem;
+        padding-top: 90px;
+    }
+
+    .titulo-index {
+        position: relative;
+        bottom: 220px;
+    }
+
+    .nome-2 {
+        font-size: 4.5rem;
+    }
+
+    .principal {
+        position: relative;
+        bottom: 125px;
+    }
+
+    .principal__conteudo-2 {
+        padding: 280px 30px;
+    }
+
+    .principal__conteudo--titulo {
+        font-size: 4.5rem;
+    }
+
+    .footer-1 {
+        height: 100px;
+        margin-top: 65px;
+    }
+
+    .footer__conteudo {
+        font-size: 1.8rem;
+    }
+
+    .button__menu, .button {
+        width: 64px;
+    }
+
+    .menu__lista--imagem-logo {
+        width: 110px;
+    }
+
+    .icone {
+        width: 60px;
+    }
+
+    .menu-lateral__ativo {
+        width: 55vw;
+    }
+
+    .menu-lateral__link {
+        height: 150px;
+        font-size: 2.5rem;
+        padding-top: 90px;
+        padding-left: 75px;
+    }
+}
