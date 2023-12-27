@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimento Digital</title>
+
+    <style>
+        body {
+            background: rgb(90, 90, 204);
+            color: white;
+            font: normal 18pt arial;
+        }
+
+        h2 {
+            color: rgb(247, 247, 77);
+        }
+    </style>
+</head>
+<body>
+    <h2>Bem vindo(a) ao site <strong>Experimento Digital</strong>.</h2>
+    <p>Se você está vendo esta mensagem, significa que conseguimos<br>
+    fazer a soma dos 2 números que você nos informou no começo. Parabéns!<br></p>
+
+    <p>Confira a seguir se os dados que informou estão corretos.</p>
+    
+    <script>
+        window.alert('Olá. Seja bem vindo(a).')
+        var nome = window.prompt('Informe apenas o seu primeiro nome')
+        var idade = Number(window.prompt('Agora diga a sua idade'))
+        var estado = window.prompt('Em qual Estado você reside?')
+
+        document.write(`Seja bem vindo(a), ${nome}! É um prazer ter você em nosso humilde site.`)
+        document.write(`Você nos<br> informou que a sua idade é ${idade} anos e que reside no Estado ${estado}. `)
+
+        document.write(`Neste caso, informamos<br> que seu nome em letras maiúsculas fica da seguinte forma: ${nome.toUpperCase()}<br>
+        e em letras minúsculas ele fica desta forma: ${nome.toLowerCase()}<br>
+        Aproveitamos a ocasião para lhe informar que o seu nome possui ${nome.length} caracteres.<br>
+        
+        Agradecemos a visita e volte sempre! `)
+
+        window.alert('Para finalizar, prossiga para a próxima etapa. Clique em OK!')
+
+        var n1 = Number(window.prompt('Informe um número qualquer'))
+        var n2 = Number(window.prompt('Informe mais um último número'))
+
+        var s = n1 + n2
+
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`)
+
+        document.write(` Você escolheu como primeiro número o ${n1}<br>
+        E como segundo número escolheu o ${n2}. A soma entre eles resulta no número ${s}.`)
+        
+        var salário = 1320
+        document.write(`<br><br>Salário mínimo em 2023: ${salário.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`)
+    </script>
+</body>
+</html>
